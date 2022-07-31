@@ -1,0 +1,7 @@
+form#form {
+    box-shadow: 0 0 2px 2px #80808054;
+    padding: 4%;
+}
+form#form span {
+    color: #ff0000c9;
+}
