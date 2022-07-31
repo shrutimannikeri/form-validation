@@ -88,7 +88,7 @@ else{
     newtdvalue+=`
         <td>${fname.value}</td>
         <td>${lname.value}</td>
-        <td>${saddress.innerHTML}</td>
+        <td>${saddress.value}</td>
         <td>${pincode.value}</td>
         <td>${gender.value}</td>
         <td>${foodname.join(',')}</td>
@@ -113,7 +113,7 @@ function clearErrors(){
 function ResetAllvalue(){
  document.querySelector('#first-name').value=""
 document.querySelector("#last-name").value=""
-document.querySelector("#address").innerHTML=""
+document.querySelector("#address").value=""
 document.querySelector("#pincode").value=""
 document.querySelector("#state").value=""
 document.querySelector("#country").value=""
